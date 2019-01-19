@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>901</width>
+    <height>674</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="startBtn">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>350</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>START</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="typingText">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>200</y>
+      <width>861</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tw Cen MT</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>ADFSDFSDF</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="melodyList">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>70</y>
+      <width>451</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>Hymn for the Weekend - Coldplay</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C-BooL - DJ Is Your Second Name</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Demons - Imagine Dragons</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Медуза - MATRANG</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sweet Dreams - Eurythmics</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Skillet - The Resistance</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Goodbye - Glenn Morisson</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>David Guetta - Titanium ft. Sia</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>901</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAudiobug">
+    <property name="title">
+     <string>Audiobug</string>
+    </property>
+   </widget>
+   <addaction name="menuAudiobug"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
