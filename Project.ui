@@ -14,61 +14,6 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QComboBox" name="melodyList">
-    <property name="geometry">
-     <rect>
-      <x>370</x>
-      <y>20</y>
-      <width>451</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>16</pointsize>
-     </font>
-    </property>
-    <item>
-     <property name="text">
-      <string>Demons - Imagine Dragons</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Hymn for the Weekend - Coldplay</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>C-BooL - DJ Is Your Second Name</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Медуза - MATRANG</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Sweet Dreams - Eurythmics</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Skillet - The Resistance</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Goodbye - Glenn Morisson</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>David Guetta - Titanium ft. Sia</string>
-     </property>
-    </item>
-   </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
@@ -100,6 +45,24 @@
     <property name="font">
      <font>
       <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="melodyList">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>30</y>
+      <width>361</width>
+      <height>69</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
      </font>
     </property>
     <property name="text">
