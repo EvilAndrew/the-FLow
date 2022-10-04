@@ -5,3 +5,6 @@
 ### Here is the video demonstrating how to launch the application and how it works:
 
 [![Watch the video](https://img.youtube.com/vi/ymHHTxCDo7c/maxresdefault.jpg)](https://youtu.be/ymHHTxCDo7c)
+
+Diclaimer: this project features materials protected by the Fair Use guidelines of Section 107 of the Copyright Act. All rights reserved to the copyright owners.
+
