@@ -2,8 +2,7 @@ import random
 import sys
 from PyQt5.QtCore import Qt, QSize
 
-from PyQt5.QtWidgets import QWidget, QApplication, QPushButton, QLabel
-import PyQt5.QtGui as QtGui
+from PyQt5.QtWidgets import QWidget, QApplication, QLabel
 from PyQt5.QtGui import QImage, QPalette, QBrush
 
 ran_arr = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f',
@@ -21,7 +20,7 @@ class Example(QWidget):
   
     def initUI(self):
         self.setGeometry(250, 250, 1080, 720)
-        self.setWindowTitle('Название игры')
+        self.setWindowTitle('пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ')
         
         oImage = QImage("animeImage.jpg")
         sImage = oImage.scaled(QSize(1920, 1080))                
